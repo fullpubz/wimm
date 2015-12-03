@@ -1,0 +1,44 @@
+#bar {
+    height: 20px;
+    width: 300px;
+}
+
+.progress_bar {
+    width: 70%;
+    height: 15px;
+    float: left;
+    border: 1px dotted green;
+}
+
+.progress_bar > span {
+    display: block;
+    height: 100%;
+
+    background-color: greenyellow;
+    float: left;
+}
+
+#indicator_bar {
+    width: 1%;
+    margin-top: 0%;
+    height: 100%;
+    background-color: darkseagreen;
+}
+
+#indicator_number {
+    float: right;
+    margin-left: 2%;
+    margin: auto;
+    font-size: 12px;
+}
+
+#info_envelope {
+    font-size: 11px;
+    font-family: monospace;
+    padding-left : 2px;
+}
+
+.envelope {
+    font-family: monospace;
+    font-size: 18px;
+}
